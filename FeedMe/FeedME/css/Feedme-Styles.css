@@ -1,0 +1,793 @@
+/* Author: Ali Villegas, 
+*  Alister Estrada, 
+*  Ana Guerrero
+*  16/03/2017
+*
+*
+*/
+
+html
+{
+    background: url(../img/BackgImg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+}
+body
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Baloo', sans-serif;
+    font-size: 100px; 
+    color: white;
+
+}
+
+
+#wrapper
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+header
+{
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;            
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    text-decoration:none;
+}
+
+header .mobileHeader
+{
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;   
+    
+    display: none; 
+    width: 100%; 
+    height: 100%;
+    font-size: 100px;
+    background-color: rgba(156,102 ,31, 0.1);
+    text-align: center; 
+}
+.dorp
+{
+    font-size: 30px !important;
+}
+#dropMenu
+{
+    display: none;
+    width: 200px;
+    margin: 5px auto;
+}
+.headerBox
+{
+    
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;   
+    font-size: 100px;
+    position: absolute;
+    width: 48%;
+    height: 250px;
+    color: white;
+    margin: 1%;
+    background-color: rgba(156,102 ,31, 0.2); 
+    float: left;
+    border-radius: 30px;
+}
+
+
+.aThird
+{
+    cursor: pointer;
+    
+    width: 32%;
+    margin-left: 1%;
+    text-align: center;
+    overflow:hidden;
+}
+
+
+header .tThird
+{
+    
+    z-index: 1000;  
+    left: 34%; 
+    width: 80%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+header .headerBox img
+{
+    position: relative;
+    float: left;
+    width: 400px; 
+    height: 400px;
+    
+}
+
+header .headerBox ul
+{
+    position: absolute;
+    width: 100%;
+    left: 25%; margin-left: -220px;
+    font-size: 80px;
+    display: inline-block; 
+    color: white;
+}
+
+header .headerBox li
+{
+    cursor: pointer;
+    position: relative;
+    float: left;
+    padding: 2px;
+    margin: 1%; 
+    border-radius: 10px;
+    transition: all; 
+    transition-duration: 1.2s; 
+    font-size: 55px;
+}
+
+a, 
+a:link, 
+a:visited, 
+a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+header .headerBox li:hover
+{
+    color: black !important; 
+    font-size: 60px;
+}
+
+section 
+{
+    position: relative;
+    width: 100%;
+    height: 450px; 
+    margin-bottom: 30px;
+}
+
+#s1
+{
+    display: block;
+    z-index: 50;
+}
+#s2
+{
+    display: block;
+}
+#s3
+{
+    display: block;
+    background-color: rgba(156,102 ,31, 0.2);
+    height: 1900px;
+}
+
+#mobileVids
+{
+    display: none;
+}
+
+section .headerBox
+{
+    position: relative;
+    width: 32%;
+    height: 100%;
+}
+
+#vidText
+{
+    margin-top: 50px;
+    font-size: 70px;
+    text-align: center;
+    font: white;
+}
+.mobileBox
+{
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;   
+    display: none;
+    position: absolute; 
+    width: 100%;
+    height: 100%; 
+    z-index: 2;
+}
+
+.mobileContent
+{
+    display: none;
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;   
+    display: none;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.helpC
+{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    font: white;
+}
+
+.mobileBox ul
+{
+    position: absolute;
+    font-size: 40px; 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 1%;
+}
+
+.mobileBox li
+{
+    background-color: rgba(156,102 ,31, 0.1); 
+    border-radius: 30px;
+    height: 25%;
+}
+
+
+section .bx-wrapper
+{
+   border-radius: 10px;
+   margin-top: 20px; 
+   width: 90%;
+   height: 80%;
+}
+
+.bx-viewport
+{
+    height: 90% !important;
+}
+
+.bx-pager
+{
+    display: none !important; 
+}
+
+.bx-next
+{
+    opacity: .2; 
+}
+
+.bx-prev
+{
+    opacity: .2;
+}
+
+#description
+{
+    display: block;
+    width: 64%;
+    
+}
+
+.dParagraph
+{
+    text-align: center;
+    line-height: 40px;
+    font-size: 38px;
+    color: white; 
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    display: block;
+}
+
+#section2
+{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    font-size: 40px;
+}
+
+#s2 .third
+{
+    position: relative;
+    width: 31%;
+    margin: 1%;
+    height: 100%;
+    border-radius: 80px;
+    float: left;
+    text-align: center;
+    font-size: 45px;    
+}
+
+#s2 .third img
+{
+    width: 95%;
+    height: 95%;
+    border-radius: 80px;
+    opacity: 0.4;
+    transition: all;
+    transition-duration: 1000ms;
+}
+
+#s2 .third img:hover
+{
+    opacity: 1;
+    
+}
+
+
+#aDog
+{
+  width: 100%;
+  height: 100%;
+}
+
+#aDogText
+{
+    display: none;
+    overflow: hidden;
+    line-height: 400px;
+}
+#aCat
+{
+    width: 100%;
+    height: 100%;
+}
+#aCatText
+{
+    display: none;
+    overflow: hidden;
+    line-height: 400px;
+}
+
+.prueba
+{
+    display: none;
+}
+iframe
+{
+        display: block;
+        margin: 50px auto !important;
+        text-align: center;
+    border-radius: 10px;
+ }
+#videoPro
+{
+    display: block;
+        margin: 30px auto!important;
+        text-align: center;
+    border-radius: 10px !important;
+}
+#aHamster
+{
+    width: 100%;
+    height: 100%;
+}
+#aHamsterText
+{
+    display: none;
+    overflow: hidden;
+    line-height: 400px;
+}
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/************ INTERACTIVE DESIGN ************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+/*******************************************/
+
+/*Big screens*/
+@media screen and (max-width:1800px) and (orientation: landscape)
+{
+    #wrapper
+    {
+        width: 100%; 
+        height: 100%;
+    }
+    
+    header .headerBox li
+    {
+        position: relative;
+        float: left;
+        padding: 2px;
+        margin: 1%; 
+        border-radius: 10px;
+        transition: all; 
+        transition-duration: 1.2s; 
+        font-size: 40px;
+    }
+
+    header .headerBox li:hover
+    {
+        color: black; 
+        font-size: 50px;
+    }
+}
+/*Laptops up to 1400px */
+@media screen and (max-width:1400px) and (orientation: landscape)
+{
+    #wrapper
+    {
+        width: 100%; 
+        height: 100%;
+    }
+    .aThird
+    {
+        font-size: 60px;
+    }
+    header .headerBox ul
+    {
+    
+        left: 25%; margin-left: -180px;
+    
+    }
+    header .headerBox li
+    {
+        position: relative;
+        float: left;
+        padding: 1px;
+        margin: 1%; 
+        border-radius: 10px;
+        transition: all; 
+        transition-duration: 1.2s; 
+        font-size: 40px;
+    }
+
+    header .headerBox li:hover
+    {
+        color: black; 
+        font-size: 45px;
+    }
+    
+    section .bxslider
+    {
+        height: 100%;
+    }
+    section .bx-wrapper
+    {
+       top: 10%;
+       height: 60%;
+    }
+     #description
+    {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    #s2 .third 
+    {
+        top: 5%;
+        width: 33%;
+        font-size: 30px;
+        margin: 0; 
+    }
+    #s2 .third img
+    {
+        width: 95%;
+        height: 95%;
+        border-radius: 50px;
+    }
+}
+
+/*medium screens in landscape*/
+@media screen and (max-width:1024px) and (orientation: landscape)
+{   
+    html
+    {
+        background: url(../img/BackgImg.jpg) no-repeat fixed; 
+        background-size: cover;
+        background-size: 130%;  
+    }
+    body
+    {
+        
+        overflow: hidden;
+        overflow-y: hidden !important;
+    }
+    #wrapper
+    {
+        width: 100%; 
+        height: 100%;
+    }
+    
+    header
+    {
+        width: 100%; 
+        height: 100%; 
+    }
+    
+    header .headerBox,
+    header .aThird,
+    header .tThird
+    {
+        display: none; 
+    }
+    
+    header .mobileHeader
+    {
+        display: block;
+    }
+    
+    .mobileBox
+    {
+      display: block;   
+    }
+    
+    section
+    {
+        height: 550px;
+    }
+    section .headerBox
+    {
+        display: none;
+        height: 100%; 
+    }
+    
+    .mobileContent
+    {
+        display: block;
+    }
+    
+    .helpC
+    {
+        font-size: 50px;
+        display: none;
+    }
+    #s2,#s3,#description, #videoPro
+    {
+        display: none !important;
+    }
+    #mobileVids
+    {
+        display: block;
+    }
+}
+
+/*small screens in landscape*/
+@media screen and (max-width:800px) and (orientation: landscape)
+{
+    html
+    {
+        background: url(../img/BackgImg.jpg) no-repeat; 
+        background-size: cover;
+        background-size: 105%;
+    }
+    body
+    {
+        overflow-y: hidden;
+    }
+    #wrapper
+    {
+        width: 100%; 
+        height: 100%; 
+    }
+    
+    header
+    {
+        width: 100%;
+        height: 100%; 
+    }
+    
+    header .headerBox,
+    header .aThird,
+    header .tThird
+    {
+        display: none; 
+    }
+    
+    header .mobileHeader
+    {
+        display: block;
+        font-size: 60px; 
+    }
+    
+    section
+    {
+        height: 250px;
+    }
+    
+    .mobileBox
+    {
+      display: block;    
+    }
+    
+    .mobileBox li
+    {
+        font-size: 35px;
+    }
+    .mobileContent
+    {
+        display: block;
+    }
+    
+    .helpC
+    {
+        display: none;
+        font-size: 30px;
+    }
+    #s2,#description,#s3, #videoPro
+    {
+        display: none !important;
+    }
+}
+
+/*medium screens in portrait*/
+@media screen and (max-width:1200px) and (orientation: portrait)
+{
+    html
+    {
+        background: url(../img/portaitMDog.jpg) no-repeat; 
+        background-size: cover;
+        background-size: 105%;
+    }
+    
+     body
+    {
+        overflow-y: hidden;
+    }
+    
+    #wrapper
+    {
+        width: 100%; 
+        height: 100%;
+    }
+    
+    header .headerBox,
+    header .aThird,
+    header .tThird
+    {
+        display: none; 
+    }
+    header
+    {
+        height: 150px;
+    }
+    
+    header .mobileHeader
+    {
+        display: block;
+    }
+    
+    .mobileBox
+    {
+      display: block;   
+    }
+    
+    .mobileBox li
+    {
+        height: 20%;
+        font-size: 55px;
+    }
+    
+    section
+    {
+        height: 900px;
+    }
+    section .headerBox
+    {
+        display: none;  
+    }
+    .mobileContent
+    {
+        display: block;
+    }
+    
+    .helpC
+    {
+        display: none;
+        font-size: 50px;
+    }
+    #s2,#s3,#description,#s3, #videoPro
+    {
+        display: none !important;
+    }
+
+}
+
+
+/*Small screens in portrait*/
+@media screen and (max-width:500px) and (orientation: portrait)
+{
+    html
+    {
+        background: url(../img/portraitHusky.jpg) no-repeat; 
+        background-size: cover;
+        background-size: 105%;
+    }
+    
+    body
+    {
+        overflow-y: hidden;
+    }
+    header
+    {
+        height: 100px;
+    }
+    header .headerBox,
+    header .aThird,
+    header .tThird
+    {
+        display: none; 
+    }
+    
+    header .mobileHeader
+    {
+        display: block !important;
+        font-size: 60px;
+        height: 120px;
+        background-color: rgba(156,102 ,31, 0.01);
+    }
+    
+    .mobileBox
+    {
+      display: block;   
+    }
+    
+    .mobileBox li
+    {
+        font-size: 35px;
+        background-color: rgba(0,0,0,0.1);
+    }
+    
+    section
+    {
+        height: 450px;
+    }
+    
+    .mobileContent
+    {
+        display: block;
+    }
+    
+    #s2,#description,#s3, #videoPro
+    {
+        display: none !important;
+    }
+    
+    .helpC
+    {
+        display: none;
+        font-size: 30px;
+    }
+    #mobileVids
+    {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
