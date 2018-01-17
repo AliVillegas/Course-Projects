@@ -1,7 +1,7 @@
-Created By Ali Villegas
-12/01/2018
+Created By Ali Villegas 12/01/2018
+Last Modified: 16/01/2018
 
-Compile every class and Run World.java
+Compile every class and Run World.java to see and abstract 3D model made up of random interconnected triangles
 Model.obj appears on the same folder as World.java 
 
 In World.java:
